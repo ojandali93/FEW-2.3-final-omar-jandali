@@ -5,6 +5,7 @@ import Home from './Components/Home';
 import { HomeContextProvider } from './Context/HomeContext';
 import { Search } from './Components/Search';
 import CharacterInfo from './Components/CharacterInfo';
+import Saved from './Components/Saved';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
           <Home />
           <Search />
           <CharacterInfo />
+          <Saved />
         </header>
       </div>
     </HomeContextProvider>
